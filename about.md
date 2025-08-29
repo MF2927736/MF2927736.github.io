@@ -14,11 +14,13 @@ Some key takeaways include:
 ## Visual Inspiration
 Here are a few images that represent balance, growth, and well-being in life:
 
-![Healthy Food](https://upload.wikimedia.org/wikipedia/commons/6/6f/Salad_platter.jpg)  
+![Healthy Food](https://www.healthyfood.com/)  
 *Eating nutritious meals helps maintain energy and focus.*
 
-![Exercise](https://upload.wikimedia.org/wikipedia/commons/8/89/Running_man_silhouette.svg)  
+![Exercise](https://www.webexercises.com/)  
 *Physical activity supports both body and mind.*
 
-![Mindfulness](https://upload.wikimedia.org/wikipedia/commons/0/02/Meditation_yoga.jpg)  
+![Mindfulness](https://www.mindful.org/)  
 *Mindfulness practices reduce stress and improve clarity.*
+
+Also I Want to study Sports Media is my dream career, I love sports since I was a little girl but my favorite sports are tennis, soccer and Formula 1.
