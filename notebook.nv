@@ -1,49 +1,74 @@
-# My coding notebook
+
+# My Coding Notebook
 
 ## Table of Contents
 - [Day 1](#day-1)
   - [Notes](#notes)
   - [Practice](#practice)
 - [Day 2](#day-2)
+  - [Notes](#notes-for-day-2)
+- [Flutter Notes](#flutter-notes)
+- [Markdown Style Guide](#markdown-style-guide-for-coding-notebooks)
 
-## Flutter Notes - [Insert Date]
+---
+
+## Day 1
+### Notes
+Your notes for Day 1 go here.  
+
+### Practice
+Your practice work for Day 1 goes here.  
+
+---
+
+## Day 2
+### Notes for Day 2
+Write your Day 2 notes here.  
+
+---
+
+## Flutter Notes
 
 ### What is Flutter?
-- Definition: A framework made byu google for building apps that work on web, Android, and iOS-with one codebase.
-- Why is it useful?
-allow developers to build high-performance apps for mobile, web, and desktop from a single codebase.
+- **Definition:** Flutter is an open-source UI framework by Google for building cross-platform apps from a single codebase.  
+- **Why is it useful?** It allows developers to create apps for iOS, Android, web, and desktop quickly with beautiful UIs.  
+
 ---
 
 ### Key Terms and Definitions
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |Basic building block of a Flutter app.              Text, image, Container, column
-                    Everything is a widget                            |                                           |
-| MaterialApp      |The root of the app. Sets up routes and themes.   | Found in main.dart                                          |
-| Scaffold         |Provides basic visual layout-like a header, body,
-                    floating button                                   | Each screen uses it
-| StatelessWidget  |A widget that doesn't change over time            | Most of the screen files                                           |
-| StatefulWidget   |A widget that can change over time                | Used in MyHomePage()                                          |
-| Navigator        |Manages screen transitions                        | Navigator, pushNamed(context, '/page2');                                         |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
+| Widget           | Basic building block of a Flutter app.          | Everything on the screen is a widget.     |
+| MaterialApp      | Wraps the app, provides theme, routes, etc.      | `MaterialApp(home: MyHome())`             |
+| Scaffold         | Provides structure for a screen.                 | Has `AppBar`, `body`, `FloatingActionButton` |
+| StatelessWidget  | Widget that does not change once built.          | `Text("Hello")`                           |
+| StatefulWidget   | Widget that can change over time.                | A counter app button.                     |
+| Navigator        | Manages app navigation and routes.               | `Navigator.pushNamed(context, '/home')`   |
+| AppBar           | A top app bar with title and actions.            | `AppBar(title: Text("Home"))`             |
+| Column           | Lays out children vertically.                    | `Column(children: [...])`                 |
+| Row              | Lays out children horizontally.                  | `Row(children: [...])`                    |
+| Container        | A box model widget for styling/layout.           | `Container(padding: EdgeInsets.all(10))`  |
+| Text             | Displays a string of text.                       | `Text("Hello World")`                     |
+| Image.network    | Loads an image from the internet.                | `Image.network("https://...")`            |
+| Padding          | Adds spacing inside a widget.                    | `Padding(padding: EdgeInsets.all(8))`     |
+| Center           | Centers its child widget.                        | `Center(child: Text("Hi"))`               |
 
 ---
 
 ### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
+- **How do you center a widget?** → Wrap it in `Center()`.  
+- **How do you align something to the left or right?** → Use `Align()` or properties in `Row()`/`Column()`.  
+- **What widget adds space around content?** → `Padding`.  
 
+---
 
+# Markdown Style Guide for Coding Notebooks
 
-## Day 1
-Notes for the day
+Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
+This ensures your notes are easy for you (and others) to read later.
+
+---
 
 ## 🔹 Headings
 **When to use:** Organize your notebook into sections (like days, topics, or projects).  
@@ -51,123 +76,39 @@ Notes for the day
 - `##` for each day or major topic.  
 - `###` for subsections (like "Notes", "Practice", "Reflections").  
 
-Example:
-```markdown
-# My Coding Notebook
-## Day 1
-### Notes
-### Practice
-Text Formatting
-When to use: Highlight important ideas or add emphasis.
+✅ Example:
 
-Use bold for key terms or definitions.
+# My Coding Notebook  
+## Day 1  
+### Notes  
+### Practice  
 
-Use italic for emphasis or side comments.
+---
 
-Use inline code for keywords, functions, or commands.
+## 🔡 Text Formatting
+- **Bold** = key terms or definitions  
+- *Italic* = emphasis or side comments  
+- `Inline code` = keywords, functions, or commands  
 
-Example:
+✅ Example:
 
-markdown
-Copy code
 **Class** = a blueprint for objects  
 *Remember:* always test your code  
-Use `System.out.println()` to print
-Code Blocks
-When to use: Anytime you write multiple lines of code.
+Use `System.out.println()` to print  
 
-Inline code for short snippets.
+---
 
-Fenced code blocks with language for full examples.
+## 💻 Code Blocks
+**When to use:** Anytime you write multiple lines of code.  
 
-Example:
+✅ Example:
 
-markdown
-Copy code
 ```java
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
 }
-```
-
-##Day 2
-Notes for day 2        
-
-Lists
-When to use: Organize steps, notes, or key points.
-
-Numbered lists for sequences or steps.
-
-Bulleted lists for unordered ideas.
-
-Example:
-
-markdown
-Copy code
-1. Define the class
-2. Write the main method
-3. Test your program
-
-- Variables
-- Loops
-- Conditionals
-Checklists
-When to use: Track progress on assignments or tasks.
-
-Example:
-
-markdown
-Copy code
-- [x] Complete coding warm-up
-- [ ] Finish project draft
-- [ ] Reflect on learning
-➡Blockquotes
-When to use: Call out notes, reminders, or teacher comments.
-
-✅ Example:
-
-markdown
-Copy code
-> 💡 Remember: Loops repeat code until a condition is false.
-📊 Tables
-When to use: Compare values, track progress, or organize data neatly.
-
-✅ Example:
-
-markdown
-Copy code
-| Task        | Status   | Notes          |
-|-------------|----------|----------------|
-| Homework 1  | Done ✅  | Submitted      |
-| Homework 2  | Pending  | Needs review   |
-🔗 Links & Images
-When to use: Add references, resources, or visuals.
-
-Example:
-
-markdown
-Copy code
-[Java Docs](https://docs.oracle.com/javase/8/docs/api/)  
-![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
-📂 Collapsible Sections
-When to use: Hide solutions, extended notes, or extra details.
-
-Example:
-
-markdown
-Copy code
-<details>
-  <summary>Click to reveal solution</summary>
-  
-System.out.println("Answer: 42");
-
-bash
-Copy code
-</details>
-📝 Footnotes
-When to use: Add references or side notes without cluttering the page.
 
 
 
